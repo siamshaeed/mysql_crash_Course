@@ -12,8 +12,6 @@ export PATH=${PATH}:/usr/local/mysql/bin
 echo 'export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.bash_profile
 ```
 
-On Windows - https://www.qualitestgroup.com/resources/knowledge-center/how-to-guide/add-mysql-path-windows/
-
 ## Login
 
 ```bash
