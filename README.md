@@ -12,4 +12,15 @@
 <pre>
   SHOW DATABASES
 </pre>
-
+##Create Database
+<pre>
+  CREATE DATABASE databaseName;
+</pre>
+##Delete Database
+<pre>
+  DROP DATABASE databaseName;
+</pre>
+##Select Database
+<pre>
+  USE acme;
+</pre>
