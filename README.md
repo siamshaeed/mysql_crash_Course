@@ -39,3 +39,15 @@
    PRIMARY KEY(id)
 );
 </pre>
+## Delete / Drop Table
+<pre>
+  DROP TABLE tablename;
+</pre>
+## Show Tables
+<pre>
+  SHOW TABLES;
+</pre>
+## Insert Row / Record
+<pre>
+  INSERT INTO users (first_name, last_name, email, password, location, dept, is_admin, register_date) values ('Brad', 'Traversy', 'brad@gmail.com', '123456','Massachusetts', 'development', 1, now());
+</pre>
