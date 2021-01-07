@@ -8,4 +8,8 @@
 <pre>
   mysql -u root -p
 </pre>
+##Show Databases
+<pre>
+  SHOW DATABASES
+</pre>
 
