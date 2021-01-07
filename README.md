@@ -5,4 +5,7 @@
 <hr>
 
 ## Login
+<pre>
+  mysql -u root -p
+</pre>
 
