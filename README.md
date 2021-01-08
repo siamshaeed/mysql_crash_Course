@@ -1,3 +1,13 @@
+# What is mysql 
+<span>
+  * Open source relational database managment system.
+  * Uses the sql (Structure Query Language).
+  * A leading database for web applications.
+  * Used for small apps to large enterprise apps.
+  * Used with multiple language (php, Node, Python, c#, etc).
+  * cross platform
+</span>
+
 ## MySQL Locations
 * Mac             */usr/local/mysql/bin*
 * Windows         */Program Files/MySQL/MySQL _version_/bin*
