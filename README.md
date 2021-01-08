@@ -14,6 +14,10 @@
 * Xampp           */xampp/mysql/bin*
 <hr>
 
+## Mysql Version
+<pre>
+  mysql --version
+</pre>
 ## Login
 <pre>
   mysql -u root -p
