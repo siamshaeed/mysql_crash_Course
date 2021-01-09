@@ -95,8 +95,8 @@ INSERT INTO users (first_name, last_name, email, password, location, dept,  is_a
 
 ## Exit
 <pre> exit; </pre>
-<hr
 
+<hr>
 
 ## Mysql SELECT statement
 
