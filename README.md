@@ -109,3 +109,37 @@ FROM table_name;
 SELECT 
     lastname, firstname, jobtitle FROM employees;
 </pre>
+
+## MySQL ORDER BY clause
+<pre>
+SELECT 
+   select_list
+FROM 
+   table_name
+ORDER BY 
+   column1 [ASC|DESC], 
+   column2 [ASC|DESC],
+   ...;
+</pre>
+
+<pre>
+ SELECT
+	contactLastname,
+	contactFirstname
+FROM
+	customers
+ORDER BY
+	contactLastname DESC,
+	contactFirstname ASC;
+</pre>
+
+<pre>
+SELECT 
+    orderNumber, 
+    orderlinenumber, 
+    quantityOrdered * priceEach
+FROM
+    orderdetails
+ORDER BY 
+   quantityOrdered * priceEach DESC;
+</pre>
