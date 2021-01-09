@@ -149,4 +149,59 @@ ORDER BY
 
 <hr>
 
+# Mysql Where clause
+<p>
+        The WHERE clause allows you to specify a search condition for the rows returned by a query. The following shows the syntax of the WHERE clause :
+    </p>
+    <pre>
+        SELECT 
+    select_list
+FROM
+    table_name
+WHERE
+    search_condition;
+    </pre>
+<p>
+    The following query uses the WHERE clause to find all employees whose job titles are Sales Rep:
+</p>
+<pre>
+    SELECT 
+    lastname, 
+    firstname, 
+    jobtitle
+FROM
+    employees
+WHERE
+    jobtitle = 'Sales Rep';
+</pre>
+<p>
+    The following example uses the WHERE clause to find employees whose job titles are Sales Rep and office codes are 1:
+</p>
+<pre>
+    SELECT 
+    lastname, 
+    firstname, 
+    jobtitle,
+    officeCode
+FROM
+    employees
+WHERE
+    jobtitle = 'Sales Rep' AND 
+    officeCode = 1;
+</pre>
+
+<p>
+    The following query returns employees with office code less than or equal 4 (<=4):
+</p>
+<pre>
+    SELECT 
+    lastname, 
+    firstname, 
+    officeCode
+FROM
+    employees
+WHERE 
+    officecode <= 4;
+</pre>
+
 <a href="https://github.com/SiamShaeed/mysql_cheat_sheet">See More ...</a>
