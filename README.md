@@ -110,7 +110,7 @@ SELECT
     lastname, firstname, jobtitle FROM employees;
 </pre>
 <hr></hr>
-## MySQL ORDER BY clause
+<h2>MySQL ORDER BY clause</h2>
 <p>When you use the SELECT statement to query data from a table, the result set is not sorted. It means that the rows in the result set can be in any order.
 
 To sort the result set, you add the ORDER BY clause to the SELECT statement. The following illustrates the syntax of the ORDER BY  clause:</p>
