@@ -147,4 +147,6 @@ ORDER BY
    quantityOrdered * priceEach DESC;
 </pre>
 
-<a href="">See More...</a>
+<hr>
+
+<a href="https://github.com/SiamShaeed/mysql_cheat_sheet">See More ...</a>
