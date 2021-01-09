@@ -59,6 +59,11 @@
 </pre>
 ##  Describe a Table
 <pre>DESCRIBE tableName;</pre>
+## Update Row/Data 
+<pre>
+ UPDATE employee SET name ="Siam", department="Author", position="CEO" where id ='2';
+ * Here employee is table name*
+</pre>
 ## Delete / Drop Table
 <pre>
   DROP TABLE tablename;
