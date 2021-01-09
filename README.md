@@ -53,6 +53,8 @@
    PRIMARY KEY(id)
 );
 </pre>
+##  Describe a Table
+<pre>DESCRIBE tableName;</pre>
 ## Delete / Drop Table
 <pre>
   DROP TABLE tablename;
