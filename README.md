@@ -96,7 +96,7 @@ INSERT INTO users (first_name, last_name, email, password, location, dept,  is_a
 ## Exit
 <pre> exit; </pre>
 
-<hr>
+</hr>
 
 ## Mysql SELECT statement
 
@@ -109,7 +109,7 @@ FROM table_name;
 SELECT 
     lastname, firstname, jobtitle FROM employees;
 </pre>
-<hr>
+</hr>
 ## MySQL ORDER BY clause
 <p>When you use the SELECT statement to query data from a table, the result set is not sorted. It means that the rows in the result set can be in any order.
 
