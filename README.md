@@ -147,4 +147,4 @@ ORDER BY
    quantityOrdered * priceEach DESC;
 </pre>
 
-<input type="Submit" value="More..."/>
+<a href="">See More...</a>
