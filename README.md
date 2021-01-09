@@ -53,15 +53,15 @@
    PRIMARY KEY(id)
 );
 </pre>
+## Show Tables
+<pre>
+  SHOW TABLES;
+</pre>
 ##  Describe a Table
 <pre>DESCRIBE tableName;</pre>
 ## Delete / Drop Table
 <pre>
   DROP TABLE tablename;
-</pre>
-## Show Tables
-<pre>
-  SHOW TABLES;
 </pre>
 ## Insert Row / Record
 <pre>
