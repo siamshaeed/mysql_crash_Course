@@ -18,26 +18,32 @@
 <pre>
   mysql --version
 </pre>
+
 ## Login
 <pre>
   mysql -u root -p
 </pre>
+
 ## Show Databases
 <pre>
   SHOW DATABASES
 </pre>
+
 ## Create Database
 <pre>
   CREATE DATABASE databaseName;
 </pre>
+
 ## Delete Database
 <pre>
   DROP DATABASE databaseName;
 </pre>
+
 ## Select Database
 <pre>
   USE databaseName;
 </pre>
+
 ## Create Table
 <pre>
   CREATE TABLE tableName(
@@ -53,29 +59,37 @@
    PRIMARY KEY(id)
 );
 </pre>
+
 ## Show Tables
 <pre>
   SHOW TABLES;
 </pre>
+
 ##  Describe a Table
 <pre>DESCRIBE tableName;</pre>
+
 ## Update Row/Data 
 <pre>
  UPDATE employee SET name ="Siam", department="Author", position="CEO" where id ='2';
- * Here employee is table name*
+ 
+ ** Here employee is table name
 </pre>
+
 ## Delete / Drop Table
 <pre>
   DROP TABLE tablename;
 </pre>
+
 ## Insert Row / Record
 <pre>
   INSERT INTO users (first_name, last_name, email, password, location, dept, is_admin, register_date) values ('Brad', 'Traversy', 'brad@gmail.com', '123456','Massachusetts', 'development', 1, now());
 </pre>
+
 ## Insert Multiple Rows
 <pre>
 INSERT INTO users (first_name, last_name, email, password, location, dept,  is_admin, register_date) values ('Fred', 'Smith', 'fred@gmail.com', '123456', 'New York', 'design', 0, now()), ('Sara', 'Watson', 'sara@gmail.com', '123456', 'New York', 'design', 0, now()),('Will', 'Jackson', 'will@yahoo.com', '123456', 'Rhode Island', 'development', 1, now()),('Paula', 'Johnson', 'paula@yahoo.com', '123456', 'Massachusetts', 'sales', 0, now()),('Tom', 'Spears', 'tom@yahoo.com', '123456', 'Massachusetts', 'sales', 0, now());
 </pre>
+
 ## Exit
 <pre> exit; </pre>
 <hr>
