@@ -71,8 +71,11 @@
 ## Update Row/Data 
 <pre>
  UPDATE employee SET name ="Siam", department="Author", position="CEO" where id ='2';
- 
  ** Here employee is table name
+</pre>
+## Delete Row 
+<pre>DELETE FROM employee WHERE id ='4';
+** Here employee is table name
 </pre>
 
 ## Delete / Drop Table
