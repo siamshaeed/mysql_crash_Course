@@ -99,6 +99,7 @@ INSERT INTO users (first_name, last_name, email, password, location, dept,  is_a
 
 
 ## Mysql SELECT statement
+
 <p>The SELECT statement allows you to read data from one or more tables. To write a SELECT statement in MySQL, you follow this syntax:</p>
 <pre> 
  SELECT select_list
