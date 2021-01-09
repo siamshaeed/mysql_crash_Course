@@ -111,6 +111,9 @@ SELECT
 </pre>
 
 ## MySQL ORDER BY clause
+<p>When you use the SELECT statement to query data from a table, the result set is not sorted. It means that the rows in the result set can be in any order.
+
+To sort the result set, you add the ORDER BY clause to the SELECT statement. The following illustrates the syntax of the ORDER BY  clause:</p>
 <pre>
 SELECT 
    select_list
