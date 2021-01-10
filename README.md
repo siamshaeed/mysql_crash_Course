@@ -237,7 +237,7 @@ WHERE country = 'USA'
 
 <hr></hr>
 
-##MySQL OR Operator
+## MySQL OR Operator
 
 <p> The MySQL OR operator combines two Boolean expressions and returns true when either condition is true. </p>
 <p> For example, to get the customers who locate in the USA or France, you use the OR operator in the WHERE clause as follows: </p>
@@ -252,5 +252,29 @@ WHERE country = 'USA' OR
 </pre>
 
 <hr> </hr>
+
+## MySQL IN
+<p> The IN  operator allows you to determine if a specified value matches any value in a set of values or returned by a subquery. </p>
+<pre>
+ SELECT 
+    column1,column2,...
+FROM
+    table_name
+WHERE 
+	(expr|column_1) IN ('value1','value2',...);
+</pre>
+
+<p> If you want to find the offices that locate in the U.S. and France, you can use the IN operator as the following query: </p>
+<pre>
+ SELECT 
+    officeCode, 
+    city, 
+    phone, 
+    country
+FROM
+    offices
+WHERE
+    country IN ('USA' , 'France');
+</pre>
 
 <a href="https://github.com/SiamShaeed/mysql_cheat_sheet">See More ...</a>
