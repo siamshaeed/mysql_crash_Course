@@ -204,4 +204,34 @@ WHERE
     officecode <= 4;
 </pre>
 
+## MySQL AND Operator
+<p>The AND operator is a logical operator that combines two or more Boolean expressions and returns true only if both expressions evaluate to true. The AND operator returns false if one of the two expressions evaluate to false.</p>
+<p>The following statement uses the AND operator to find customers who locate in California (CA), USA:</p>
+
+<pre>
+ SELECT 
+    customername, 
+    country, 
+    state
+FROM
+    customers
+WHERE
+    country = 'USA' AND state = 'CA';
+</pre>
+
+<p>By using the AND operator, you can combine more than two Boolean expressions. For example, the following query returns the customers who locate in California, USA, and have the credit limit greater than 100K.</p>
+
+<pre>
+ SELECT    
+	customername, 
+	country, 
+	state, 
+	creditlimit
+FROM    
+	customers
+WHERE country = 'USA'
+	AND state = 'CA'
+	AND creditlimit > 100000;
+</pre>
+
 <a href="https://github.com/SiamShaeed/mysql_cheat_sheet">See More ...</a>
