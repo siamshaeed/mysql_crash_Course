@@ -203,6 +203,7 @@ FROM
 WHERE 
     officecode <= 4;
 </pre>
+<hr></hr>
 
 ## MySQL AND Operator
 <p>The AND operator is a logical operator that combines two or more Boolean expressions and returns true only if both expressions evaluate to true. The AND operator returns false if one of the two expressions evaluate to false.</p>
