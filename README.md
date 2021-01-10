@@ -235,4 +235,22 @@ WHERE country = 'USA'
 	AND creditlimit > 100000;
 </pre>
 
+<hr></hr>
+
+##MySQL OR Operator
+
+<p> The MySQL OR operator combines two Boolean expressions and returns true when either condition is true. </p>
+<p> For example, to get the customers who locate in the USA or France, you use the OR operator in the WHERE clause as follows: </p>
+<pre> 
+SELECT    
+	customername, 
+	country
+FROM    
+	customers
+WHERE country = 'USA' OR 
+      country = 'France';
+</pre>
+
+<hr> </hr>
+
 <a href="https://github.com/SiamShaeed/mysql_cheat_sheet">See More ...</a>
