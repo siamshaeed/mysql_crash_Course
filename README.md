@@ -16,7 +16,7 @@
 
 ## Mysql Version
 <pre>
-  mysql --version
+  mysql --version or MySQL -V
 </pre>
 
 ## Login
