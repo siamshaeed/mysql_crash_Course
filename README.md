@@ -281,8 +281,9 @@ WHERE
 <p> In MySQL, a trigger is a stored program invoked automatically in response to an event such as insert, update, or delete that occurs in the associated table. For example, you can define a trigger that is invoked automatically before a new row is inserted into a table. </p>
 <p> MySQL supports triggers that are invoked in response to the INSERT, UPDATE or DELETE event. </p>
 <p> The SQL standard defines two types of triggers: row-level triggers and statement-level triggers. </p>
-<p>  row-level trigger is activated for each row that is inserted, updated, or deleted.  For example, if a table has 100 rows inserted, updated, or deleted, the trigger is automatically invoked 100 times for the 100 rows affected. </p>
-<p> A statement-level trigger is executed once for each transaction regardless of how many rows are inserted, updated, or deleted. </p>
+<hr> </hr>
+<p> **  Row-level trigger is activated for each row that is inserted, updated, or deleted.  For example, if a table has 100 rows inserted, updated, or deleted, the trigger is automatically invoked 100 times for the 100 rows affected. </p>
+<p> ** A statement-level trigger is executed once for each transaction regardless of how many rows are inserted, updated, or deleted. </p>
 
 
 <a href="https://github.com/SiamShaeed/mysql_cheat_sheet">See More ...></a>
