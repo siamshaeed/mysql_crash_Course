@@ -297,5 +297,31 @@ CREATE TRIGGER trigger_name
         END;     
 </pre>
 
+<pre>
+DELIMITER $$
+CREATE TRIGGER after_insert_employees
+AFTER INSERT ON employees
+FOR EACH  ROW
+BEGIN
+INSERT INTO employees_log VALUES('',NEW.employee_id,'create',now());
+
+END$$
+DELIMITER ;
+
+++++++++++++++
+
+DELIMITER //
+CREATE TRIGGER after_insert_employee
+AFTER INSERT ON employees
+FOR EACH  ROW
+BEGIN
+INSERT INTO employees_log
+SET employee_id = NEW.employee_id,
+    i_event = 'INSERT',
+    date_time = NOW();
+END//
+DELIMITER;
+</pre>
+
 
 <a href="https://github.com/SiamShaeed/mysql_cheat_sheet">See More ...></a>
