@@ -304,11 +304,11 @@ AFTER INSERT ON employees
 FOR EACH  ROW
 BEGIN
 INSERT INTO employees_log VALUES('',NEW.employee_id,'create',now());
-
 END$$
 DELIMITER ;
+</pre>
 
-++++++++++++++
+<pre>
 
 DELIMITER //
 CREATE TRIGGER after_insert_employee
