@@ -326,9 +326,14 @@ DELIMITER;
 
 ## MySQL Stored Procedures
 <p>In this section, you will learn how to develop stored programs including stored procedures and stored functions in MySQL.</P>
+<p>Here is the basic syntax of the CREATE PROCEDURE statement:</p>
+<pre>
+CREATE PROCEDURE procedure_name(parameter_list)
+BEGIN
+   statements;
+END //</pre>
 
 <p>The following statement creates a new stored procedure that wraps the query:</p>
-
 <pre>
 DELIMITER //
 
