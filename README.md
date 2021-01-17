@@ -322,6 +322,23 @@ SET employee_id = NEW.employee_id,
 END//
 DELIMITER;
 </pre>
+<hr></hr>
+
+## MySQL Stored Procedures
+<p>In this section, you will learn how to develop stored programs including stored procedures and stored functions in MySQL.</P>
+
+<p>The following statement creates a new stored procedure that wraps the query:</p>
+
+<pre>
+DELIMITER //
+
+CREATE PROCEDURE GetAllProducts()
+BEGIN
+	SELECT *  FROM products;
+END //
+
+DELIMITER ;
+</pre>
 
 
 <a href="https://github.com/SiamShaeed/mysql_cheat_sheet">See More...</a>
