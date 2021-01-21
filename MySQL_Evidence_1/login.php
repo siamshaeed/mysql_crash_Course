@@ -14,6 +14,10 @@ $db_connect = new mysqli("localhost", "root", "", "company");
   if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
     $pass = $_POST['password'];
+    
+    /* Password Encryption
+    $pass = md5($pass); */
+
     // sql
     $sql = "SELECT * FROM users WHERE username = '$username' and password = '$pass'";
     $db_connect->query($sql);
