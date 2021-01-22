@@ -1,3 +1,6 @@
+Databasae : company
+
+==== For 1 Number queation =====
 Step :: 1 (Create Database Company).
 
 Step :: 2 (Create table users).
@@ -13,3 +16,51 @@ INSERT INTO users(username, password) VALUES ('siam', '1234');
 INSERT INTO `users` (`username`, `password`) VALUES ('admin', '1234');
 
 Step :: 4 Create a login form to take username and password and write php script to check the valid user (login.php).
+
+==== For 2 Number queation =====
+
+Stap :: 1 (create Manufacturer and Product table).
+
+Stap :: 2 (Trigger)
+After Delete Trigger : DELETE FROM product WHERE manufacturer_id = old.id
+
+Step :: 3 (select manufacturer id and delete record.(Delete_manufucture.php)).
+
+===== For 3 Number question =====
+
+Step :: 1 (insert data into Manufacturer table using stored procedure)
+
+**** create store procedure under manufacturer table SQL ****
+DELIMITER //
+CREATE PROCEDURE product_data_store(
+IN name CHAR(50),
+IN address CHAR(80),
+IN contact_no CHAR (20)
+)
+BEGIN
+	INSERT INTO manufacturer (id, name, address, contact_no) VALUES ('', name, address, contact_no);
+END ; //
+DELIMITER ;
+
+Step :: 2 (form and write php script to insert data into Manufacturer table (insertBy_StoredProcedure.php)).
+
+===== For 4 Number question =====
+
+***view to display all records from the product table where price is greater than 5000***
+
+Step :: 1 (create view_product_record.php).
+
+
+**********=============***********
+
+
+
+
+
+
+
+
+
+
+
+
