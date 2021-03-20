@@ -237,7 +237,7 @@ WHERE country = 'USA'
 
 <hr></hr>
 
-## MySQL OR Operator
+## MySQL OR Operator.
 
 <p> The MySQL OR operator combines two Boolean expressions and returns true when either condition is true. </p>
 <p> For example, to get the customers who locate in the USA or France, you use the OR operator in the WHERE clause as follows: </p>
